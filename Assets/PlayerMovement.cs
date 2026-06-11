@@ -6,11 +6,13 @@ public class PlayerMovement : MonoBehaviour
 {
     GameObject mainCamera;
     public GameObject lagPosition, lookAtPosition;
-    float lagSpeed = 2f;
+    public float lagSpeed = 2f;
     bool isCatchingUp;
     [Header("Movement")]
-    float moveSpeed = 2.5f;
-    public float rotSpeed = 10f;
+    public float moveSpeed = 2.5f;
+    public float fastMoveSpeed;
+    public float slowMoveSpeed = 1f;
+    public float rotSpeed;
     float _forward;
     float _rotation;
 
@@ -24,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-
+        fastMoveSpeed = moveSpeed;
         isCatchingUp = false;
         mainCamera = Camera.main.gameObject;
         isWalking = false;
@@ -45,11 +47,11 @@ public class PlayerMovement : MonoBehaviour
         isMovingBackwards = dot < 0f;
         if(isMovingBackwards)
         {
-            moveSpeed = 1f;
+            moveSpeed = slowMoveSpeed;
         }
         else
         {
-            moveSpeed = 5f;
+            moveSpeed = fastMoveSpeed;
         }
 
         if(isCatchingUp)

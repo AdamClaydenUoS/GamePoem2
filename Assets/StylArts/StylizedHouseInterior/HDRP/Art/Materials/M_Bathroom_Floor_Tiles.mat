@@ -32,19 +32,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_296162aee2a745d3b57152085d1d03fd:
-        m_Texture: {fileID: 2800000, guid: dae8d969ef087c64cbc7c84bc22f19d8, type: 3}
+        m_Texture: {fileID: 2800000, guid: d00d90fc5ef768b4bb0fe8970787de3f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_30a6e8478fc24bc5950a35a44a032eff:
-        m_Texture: {fileID: 2800000, guid: 825593eb488999c439c6e299a14ee018, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5f5b5e544041a39479fda211f00292a7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_50c95c074b594c14bf2a852e0ea6e5b8:
-        m_Texture: {fileID: 2800000, guid: 2aa780680d52cb9468f0601ce948486d, type: 3}
+        m_Texture: {fileID: 2800000, guid: b61f23fb012226c419fc351dba26770a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_eb55fdf554d54ac0bf51809f94be4d07:
-        m_Texture: {fileID: 2800000, guid: 93b2f315a5447e24d86255e413bc1939, type: 3}
+        m_Texture: {fileID: 2800000, guid: 559ca81924fbaa84ca8fc5e3b0832773, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -61,21 +61,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Boolean_22a13923a649479f9af675a864f7c27e: 0
+    - Boolean_22a13923a649479f9af675a864f7c27e: 1
     - Boolean_81040a601c5842919b6c7ae53d9c9f61: 0
-    - Boolean_da64cc36046e487096ccd702e3751ba1: 1
+    - Boolean_da64cc36046e487096ccd702e3751ba1: 0
     - Vector1_052b65c5648d4a3489d655bcf807e4e6: 1
     - Vector1_396f178539e24f0eb2def9703fe21579: 7
     - Vector1_6e4e5f329a6b4030ab2fe6e11a6c61f1: 1
-    - Vector1_797a12a72031456d833eda7dd3aaa82a: 0.25
+    - Vector1_797a12a72031456d833eda7dd3aaa82a: 2.5
     - Vector1_81391520fd2f4566aea368712a3b305c: 1
-    - Vector1_8642ad8e0a67418c8d279607601374ce: 32
-    - Vector1_8b8dc0f10afc456f90e0b05c8099014c: 1
+    - Vector1_8642ad8e0a67418c8d279607601374ce: 64
+    - Vector1_8b8dc0f10afc456f90e0b05c8099014c: 14
     - Vector1_8bf78994216e404dac7b8a88a43e1134: 1
-    - Vector1_9137fe8c5e5f41a395c65eb1b1c86261: 0.77
+    - Vector1_9137fe8c5e5f41a395c65eb1b1c86261: 0.45
     - Vector1_93d01746e6b040be800ac76d1721b506: 0
-    - Vector1_ac341adfa84745e2a992912c5b2fe6c3: 1
-    - Vector1_c15a4bcb5657447baad0a61a6e50f537: 8
+    - Vector1_ac341adfa84745e2a992912c5b2fe6c3: 1.5
+    - Vector1_c15a4bcb5657447baad0a61a6e50f537: 32
     - Vector1_f363996fc4224d05bafd1fd7d6d06e8b: 1.2
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
