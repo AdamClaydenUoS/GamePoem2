@@ -104,6 +104,42 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "NewGame",
+                    "type": "Button",
+                    "id": "23e61208-4023-4443-bd53-abfa47596b23",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MechanicInteraction",
+                    "type": "Button",
+                    "id": "c62e4638-7d78-4f61-bce3-0c20f0a9c186",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DebugZero",
+                    "type": "Button",
+                    "id": "beb634e1-8a4a-4b0c-b06d-339d0cfd8072",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "OnDoorInteract",
+                    "type": "Button",
+                    "id": "0ba46be9-2698-4c80-bb0e-825eabd2e64b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -557,6 +593,50 @@
                     "action": "OnRotateCharacter",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "c4a846d3-fcda-408f-bc27-b5d92b7efa6b",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NewGame",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5ea90aa7-3d22-4537-a7f1-680e170d3bb7",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MechanicInteraction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "91bf988b-6ca8-42e3-a938-585f88c02f2e",
+                    "path": "<Keyboard>/0",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DebugZero",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f4e8fc28-45dc-4d21-9587-cea969892bf4",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnDoorInteract",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
