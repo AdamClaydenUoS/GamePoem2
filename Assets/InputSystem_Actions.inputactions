@@ -140,6 +140,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "ActivateMechanic",
+                    "type": "Button",
+                    "id": "94d4f769-f7d8-481b-9047-e5850f5460d7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -635,6 +644,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "OnDoorInteract",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "24419c2f-7fd5-4082-960f-64283fdbe9b8",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActivateMechanic",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
